@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+#section {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#listagem {
+    background-color: #CCC;
+    width: 250px;
+    height: 80px;
+
+    border-radius: 5px;
+}
+
+#search {
+    width: 80%;
+    height: 60px;
+
+    display: flex;
+    flex-direction: column;
+ 
+    margin: 10px auto;
+}
+
+#button, #user {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #1b1e20;
+}
